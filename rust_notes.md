@@ -18,3 +18,10 @@
     cargo run # run binary
     cargo check # check compilation without produce binary
     ```
+- Input/output library from standard library `use std::io;`
+
+- Use `let` to create variables; use `mut` to specify mutatble variables
+
+- `String::new()` returns a new instance of a `String`
+
+- `//` to start a comment
