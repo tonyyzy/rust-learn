@@ -32,6 +32,8 @@ fn main() {
 
     scores.entry(String::from("Yellow")).or_insert(50);
     scores.entry(String::from("Blue")).or_insert(50);
+    scores.insert(String::from("Blue"), 50);
+
 
     let text = "hello world wonderful world";
 
@@ -42,5 +44,6 @@ fn main() {
         *count += 1;
     };
 
+    println!("{:?}", scores);
     println!("{:?}", map);
 }
